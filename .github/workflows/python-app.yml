@@ -44,6 +44,13 @@ jobs:
     - name: fun with linux
       run: 
         ls -lha
+        mkdir kiscica
+        cd kiscica
+        echo miauu > nyavog.txt
+        cat nyavog.txt
+        ls
+
+
         
     - name: Allure Report action from marketplace
       uses: simple-elf/allure-report-action@master
