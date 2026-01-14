@@ -42,7 +42,7 @@ jobs:
         pytest --alluredir=allure-results
 
     - name: fun with linux
-      run: 
+      run: |
         ls -lha
         mkdir kiscica
         cd kiscica
